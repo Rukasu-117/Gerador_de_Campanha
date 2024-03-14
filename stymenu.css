@@ -1,0 +1,70 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15rem; /* largura do menu */
+    height: 100vh; /* altura do menu */
+    background-color: #264365;
+    color: #fff;
+    padding-top: 2rem; /* espaço superior no menu */
+}
+#logo_grupo{
+    max-width: 12rem;
+    inline-size: auto;
+    align-items: center;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 1rem 0; /* espaçamento vertical nos itens do menu */
+    border-bottom: 1px solid #555;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #FBF1EA;
+    padding: 0.8rem 1rem; /* espaçamento interno nos itens do menu */
+}
+
+.menu ul li a:hover {
+    color: #F3D4BE;
+    background-color: #223C5B;
+}
+
+.content {
+    margin-left: 15rem; /* ajusta a margem esquerda para não ser ocultado pelo menu */
+    padding: 2rem; /* espaço interno no conteúdo principal */
+}
+
+@media screen and (max-width: 1024px) {
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 10rem; /* largura do menu */
+        height: 100vh; /* altura do menu */
+        background-color: #264365;
+        color: #fff;
+        padding-top: 2rem; /* espaço superior no menu */
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 8rem; /* largura do menu */
+        height: 100vh; /* altura do menu */
+        background-color: #264365;
+        color: #fff;
+        padding-top: 2rem; /* espaço superior no menu */
+    }
+
+}

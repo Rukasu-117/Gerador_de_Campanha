@@ -1,0 +1,107 @@
+/*Global*/
+
+/* Para deixar a imagem na dimensão que caiba dentro do formulario */
+img {
+    max-width: 20rem;
+    max-width: 20rem;
+}
+
+/*--------------------------//----------------------------------------------/Box/------------------------------------------------------//------------------------*/
+
+/* Para centralizar na tela tudo oque estiver no body */
+body{
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box Central dentro do body que recebe a div com classe cliente */
+#clientes {
+margin-left: 18rem;
+margin-right: 3rem;
+text-align: center;
+background-color: #fff;
+border-radius: 0.7rem;
+box-shadow: 0 0 0.7rem #223C5B;
+margin-bottom: 0.3rem;
+}
+
+/* Box dentro da div id clientes */
+.cliente{
+display: flex;
+max-width: 68rem;
+margin: 1rem;
+text-align: justify;
+flex-wrap: wrap;
+}
+
+/*--------------------------//-------------------------------------/Conteudo dentro da div com class Cliente/---------------------------------------------//------------------------*/
+
+/* Sepador e titulo hr html para que o mesmo não seja afetado pela as configurações da div cliente */
+.separador {
+     flex: 0 0 100%;   
+}
+    
+.titulo {
+        flex: 0 0 100%;
+}
+
+/*Linha de texxto antes do input*/
+label{
+    font-weight: bold;
+    margin-inline-end: 0.5rem;
+    color: #1D324C;
+}
+
+/* Texto e Campos */
+select,
+input{
+    color: #264365;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid #DEE3E8;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+/*Div que contem o input e o label*/
+.form-group{
+    margin: 0.5rem;
+}
+
+/* Caixa de Texto */
+input{
+    padding: 0.35rem;
+    width: 12rem;
+}
+
+/* Botões */
+button {
+    padding: 0.8rem ; /* 10px e 20px em rem */
+    background-color: #264365;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem; /* 5px em rem */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem; /* 10px em rem */
+    max-width: 20rem;
+    margin: 0.5rem;
+}
+
+/*Animação do botão*/
+button:hover {
+    background-color: #1E3651;
+}
+
+/* Titulos Separadores */
+h1{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+

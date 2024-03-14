@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    max-width: 800px; /* Defina a largura máxima conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-left: 15rem; /* Define a margem à esquerda */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 20px; /* Adiciona um preenchimento ao redor do conteúdo */
+}
+
+h1 {
+    margin-bottom: 20px; /* Adiciona um espaço entre o título e o botão */
+}
+
+button {
+    padding: 10px 20px; /* Define o preenchimento do botão */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+    background-color: #007bff; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Define o cursor do mouse como ponteiro quando passa sobre o botão */
+}
+
+button:hover {
+    background-color: #0056b3; /* Define a cor de fundo do botão quando passa o mouse sobre ele */
+}

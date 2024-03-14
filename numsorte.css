@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #3D5473;
+    background-color: #FBF1EA;
+}
+
+.wrapper {
+    position: relative;
+    height: 90vh; /* Define a altura total da tela */
+    margin-left: 10rem; /* Define a margem à esquerda */
+
+}
+img{
+    max-width: 20rem;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90vw; /* Defina a largura máxima conforme necessário */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px; /* Adiciona um preenchimento ao redor do conteúdo */
+    background-color: #fff;
+    border-radius: 1rem; /* 10px em rem */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); /* 10px em rem */
+}
+
+h1 {
+    margin-bottom: 20px; /* Adiciona um espaço entre o título e o botão */
+    color: #3D5473;
+}
+
+button {
+    padding: 10px 20px; /* Define o preenchimento do botão */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+    background-color: #264365; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Define o cursor do mouse como ponteiro quando passa sobre o botão */
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #1E3651; /* Define a cor de fundo do botão quando passa o mouse sobre ele */
+}
